@@ -1,0 +1,9 @@
+{
+  "name": "WikiReact",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "^0.14.7",
+    "jquery": "^2.2.1",
+    "babel": "*"
+  }
+}

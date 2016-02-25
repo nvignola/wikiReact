@@ -1,0 +1,128 @@
+      .app-container {
+      	margin: auto;
+      	max-width: 700px;
+      }
+      
+      body {
+      	font-family: 'Lato', sans-serif;
+      	font-weight: 400;
+      }
+      
+      a {
+      	text-decoration: none;
+      }
+      
+      h1 {
+      	font-size: 80px;
+      	text-align: center;
+      	text-transform: uppercase;
+      }
+      
+      .commands {
+      	margin: 0 auto 5em;
+      	width: 500px;
+      }
+      
+      .crossroads {
+      	margin: 0 1em;
+      }
+      
+      .btn {
+      	border: 1px solid;
+      	border-radius: 3px;
+      	color: #FFF;
+      	cursor: pointer;
+      	display: inline-block;
+      	font-size: 16px;
+      	font-weight: 900;
+      	height: 23px;
+      	line-height: 23px;
+      	margin: 0;
+      	min-width: 54px;
+      	padding: 5px 8px;
+      	position: relative;
+      	text-align: center;
+      	top: 5px;
+      	transition: all .218s;
+      	text-transform: uppercase;
+      	-moz-border-radius: 2px;
+      	-moz-box-sizing: content-box;
+      	-moz-transition-duration: .218s;
+      }
+      
+      .lucky-btn {
+      	background-color: #f0ad4e;
+      	border-color: #f0ad4e;
+      	top: 2px;
+      }
+      
+      .lucky-btn:hover {
+      	background-color: #ec971f;
+      	border-color: #eb9316;
+      }
+      
+      .query-btn {
+      	background-color: #4d90fe;
+      	border-color: #3079ed;
+      	background-image: -webkit-linear-gradient(#4d90fe, #4787ed);
+      	background-image: -moz-linear-gradient(#4d90fe, #4787ed);
+      	background-image: -o-linear-gradient(#4d90fe, #4787ed);
+      	background-image: linear-gradient(#4d90fe, #4787ed);
+      }
+      
+      .query-btn:hover {
+      	background-image: -moz-linear-gradient(top, #4d90fe, #357ae8);
+      	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      	background-color: #357ae8;
+      	border-color: #2f5bb7;
+      }
+      
+      .query-input {
+      	font-family: 'Lato', sans-serif;
+      	padding: 10px;
+      	border: none;
+      	border-bottom: solid 2px #4d90fe;
+      	transition: border 0.3s;
+      }
+      
+      .query-input:focus,
+      .query-input.focus {
+      	border-bottom: solid 2px #357ae8;
+      }
+      
+      form {
+      	display: inline-block;
+      }
+      
+      .results {
+      	list-style-type: none;
+      	margin: 0;
+      	padding: 0;
+      }
+      
+      .results > li {
+      	border: 1px solid #fff;
+      	margin-top: 2em;
+      	padding: 1em;
+      }
+      
+      .results > li:hover {
+      	-webkit-box-shadow: 0 8px 6px -6px #9F9F9F;
+      	-moz-box-shadow: 0 8px 6px -6px #9F9F9F;
+      	box-shadow: 0 8px 6px -6px #9F9F9F;
+      	border: 1px solid #4285F4;
+      }
+      
+      .results > li > a {
+      	color: #333;
+      }
+      
+      .results > li .title {
+      	font-weight: 900;
+      	margin: 0;
+      }
+      
+      .results > li .descr {
+      	font-style: italic;
+      	font-weight: 100;
+      }

@@ -1,0 +1,16 @@
+{
+  "name": "WikiReact",
+  "version": "0.0.1",
+  "email": "nicolantonio.vignola@gmail.com",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^3.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "wiredep": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nvignola/wikiReact"
+  }
+}
